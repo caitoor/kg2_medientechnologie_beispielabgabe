@@ -1,0 +1,119 @@
+@media screen and (min-width: 1024px) {
+
+    /* Desktop Styles */
+    body {
+        background-color: #ccc;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #logo {
+        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #logo h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul a {
+        padding: 0 1rem;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    main section {
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    main section:nth-child(even) {
+        background-color: white;
+        padding: 1rem;
+    }
+
+    .landing-main section img,
+    .pulsars-main section iframe {
+        max-width: 40%;
+        max-height: 50vh;
+        min-width: 30%;
+        object-fit: cover;
+        margin: 0;
+    }
+
+    .pulsars-main section iframe {
+        min-width: 50%;
+        max-width: 100%;
+        max-height: 100vh;
+        margin-left: 3em;
+        margin-top: 3rem;
+    }
+
+    .section-text {
+        max-width: 80%;
+    }
+
+    .section-text h2 {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .awards-main {
+        background-color: white;
+        padding: 1em;
+    }
+
+    .timeline {
+        display: flex;
+        flex-wrap: wrap;
+        border: none;
+        gap: 1rem;
+        justify-content: space-around;
+    }
+
+    .timeline li {
+        flex-basis: 25%;
+        border-radius: 2px;
+        border: none;
+        flex-grow: 1;
+        margin: 0;
+        padding: 1em;
+        box-shadow: 0 0 5px #7a7a7a;
+    }
+
+    .timeline li:hover {
+        box-shadow: 0 0 1em gold;
+        cursor: pointer;
+        background-color: #333;
+        color: white;
+    }
+
+    .timeline li:hover h3 {
+        color: gold;
+        text-shadow: 0 0 1em gold;
+    }
+
+    .timeline li h3 {
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .timeline li p {
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .hide-mobile {
+        display: block;
+    }
+
+
+}
